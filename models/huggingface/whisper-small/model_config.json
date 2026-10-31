@@ -1,0 +1,1 @@
+{"model_id": "local/whisper-small", "precision": "float16", "framework": "PyTorch"}

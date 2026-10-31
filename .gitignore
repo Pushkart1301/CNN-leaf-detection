@@ -13,6 +13,24 @@ venv/
 .env
 *.db
 *.log
+
+# Local datasets and downloaded model weights are too large for a source repository.
+data/leaf_disease/*
+!data/leaf_disease/DATASET_ATTRIBUTION.txt
+models/**/*.bin
+models/**/*.safetensors
+models/**/*.onnx
+models/**/*.h5
+models/**/*.ot
+models/**/*.pt
+models/**/*.pth
+agritechapp/**/*.bin
+agritechapp/**/*.safetensors
+agritechapp/**/*.onnx
+agritechapp/**/*.h5
+agritechapp/**/*.ot
+agritechapp/**/*.pt
+agritechapp/**/*.pth
 err.txt
 err2.txt
 error_msg.txt
@@ -21,7 +39,3 @@ venv/
 node_modules/
 *.db
 *.log
-data/leaf_disease/
-models/leaf_disease_classifier/
-models/huggingface/leaf_disease_classifier/
-models/huggingface/leaf_disease_realworld/

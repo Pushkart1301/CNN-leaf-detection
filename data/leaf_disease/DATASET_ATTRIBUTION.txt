@@ -1,0 +1,1 @@
+PlantVillage dataset by Mohanty et al., licensed CC BY-SA 3.0. Source: https://huggingface.co/datasets/mohanty/PlantVillage Paper: https://doi.org/10.3389/fpls.2016.01419

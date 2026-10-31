@@ -1,0 +1,76 @@
+{
+  "architectures": [
+    "SwinForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "depths": [
+    2,
+    2,
+    6,
+    2
+  ],
+  "drop_path_rate": 0.1,
+  "dtype": "float32",
+  "embed_dim": 96,
+  "encoder_stride": 32,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Tomato___Bacterial_spot",
+    "1": "Tomato___Early_blight",
+    "2": "Tomato___Late_blight",
+    "3": "Tomato___Leaf_Mold",
+    "4": "Tomato___Septoria_leaf_spot",
+    "5": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "6": "Tomato___Target_Spot",
+    "7": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "8": "Tomato___Tomato_mosaic_virus",
+    "9": "Tomato___healthy"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "label2id": {
+    "Tomato___Bacterial_spot": 0,
+    "Tomato___Early_blight": 1,
+    "Tomato___Late_blight": 2,
+    "Tomato___Leaf_Mold": 3,
+    "Tomato___Septoria_leaf_spot": 4,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 5,
+    "Tomato___Target_Spot": 6,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 7,
+    "Tomato___Tomato_mosaic_virus": 8,
+    "Tomato___healthy": 9
+  },
+  "layer_norm_eps": 1e-05,
+  "mlp_ratio": 4.0,
+  "model_type": "swin",
+  "num_channels": 3,
+  "num_heads": [
+    3,
+    6,
+    12,
+    24
+  ],
+  "num_layers": 4,
+  "out_features": [
+    "stage4"
+  ],
+  "out_indices": [
+    4
+  ],
+  "patch_size": 4,
+  "path_norm": true,
+  "problem_type": "single_label_classification",
+  "qkv_bias": true,
+  "stage_names": [
+    "stem",
+    "stage1",
+    "stage2",
+    "stage3",
+    "stage4"
+  ],
+  "transformers_version": "5.17.0",
+  "use_absolute_embeddings": false,
+  "window_size": 7
+}

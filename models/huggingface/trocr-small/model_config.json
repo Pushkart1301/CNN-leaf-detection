@@ -1,0 +1,1 @@
+{"model_id": "local/trocr-small", "precision": "float16", "framework": "PyTorch"}

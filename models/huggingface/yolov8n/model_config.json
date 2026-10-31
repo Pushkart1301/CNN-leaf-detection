@@ -1,0 +1,1 @@
+{"model_id": "local/yolov8n", "precision": "float16", "framework": "PyTorch"}

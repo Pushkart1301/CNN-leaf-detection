@@ -1,0 +1,1 @@
+{"model_id": "local/speecht5_tts", "precision": "float16", "framework": "PyTorch"}
